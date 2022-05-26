@@ -27,3 +27,28 @@ header nav{
 .logoHeader{
     width: 128px;
 }
+
+
+/*--------------Main-------------------*/
+
+
+
+.whatsapp{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+}
+
+.imagenIntroccion{
+    padding-top: 50px;
+    height: 400px;
+}
+
+.divTextoIntroduccion{
+    padding-left: 20px;
+}
+.textoIntroccion{
+    
+}
