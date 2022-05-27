@@ -41,14 +41,49 @@ header nav{
     width: 70px;
 }
 
-.imagenIntroccion{
-    padding-top: 50px;
-    height: 400px;
+.imagenInformacion{
+    padding: 2px;
 }
 
 .divTextoIntroduccion{
     padding-left: 20px;
 }
-.textoIntroccion{
+.textoIntroduccion{
+    color: #734885;
+}
+
+.card-body{
+    background-color: #8E44AD;
+    color: white;
+}
+
+
+/*Footer*/
+.fondoFooter{
+    background-color: rgb(124, 37, 141);
+}
+.navFooter{   /*Copia nav-Link en footer para modificar*/
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+    color:white;
+    padding: 0;
+}
+.logoFooter{
+    width: 128px;
+}
+
+
+
+.footerFinal{
+    background-color: #7D3C98;
+    color: white;
     
+}
+
 }
