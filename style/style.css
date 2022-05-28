@@ -24,13 +24,20 @@ header nav{
     color: white;
 }
 
+.navbar-nav .nav-link.active{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.nav-link:hover{
+    color: #BB8FCE;
+}
+
 .logoHeader{
     width: 128px;
 }
 
 
-/*--------------Main-------------------*/
-
+/*--------------Main Index-------------------*/
 
 
 .whatsapp{
@@ -58,7 +65,7 @@ header nav{
 }
 
 
-/*Footer*/
+/*---------------------Footer----------------*/
 .fondoFooter{
     background-color: rgb(124, 37, 141);
 }
@@ -73,17 +80,24 @@ header nav{
 
     color:white;
     padding: 0;
+    
 }
+
+footer div div div p {
+    color: white;
+}
+
 .logoFooter{
     width: 128px;
 }
 
-
-
 .footerFinal{
     background-color: #7D3C98;
-    color: white;
-    
+    color: white;   
 }
 
+/*------------Contacto----------*/
+
+.bodyCardContacto{
+    background-color: #A569BD  ;
 }
