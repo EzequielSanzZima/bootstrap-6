@@ -32,6 +32,9 @@ header nav{
     color: #BB8FCE;
 }
 
+.navbar-nav .nav-link.active{
+    color: #c393d8;
+}
 .logoHeader{
     width: 128px;
 }
@@ -80,6 +83,7 @@ header nav{
 
     color:white;
     padding: 0;
+    margin: 0%;
     
 }
 
